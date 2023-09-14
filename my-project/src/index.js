@@ -1,17 +1,42 @@
+
+
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import  ReactDOM  from 'react-dom';
+import"./style.css";
+ import App from './App.js';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// it is a js function
+// function hello(){
+//   return "hello world"
+// }
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// it is some component fum=nction add knnon as rect function like that amazon card
+//<hello> or <hello></hello> there  are no diffrence only aad the statment then using second not any aad then using tist tag
+
+// JSX means combiation of html css and js
+//function Hello(){
+  /*return <h1>Hello World</h1>*/
+ // let a=10
+  //let hello="ashwani Kumar"
+//   let styleH1={
+//     color:"tomato",
+//     textAlign:"center",
+//   }
+  //return (
+ //<div>
+
+  {/* <h1 style={styleH1}> Hello World ,{a}</h1> */}
+{/* <h1 style={{color:"tomato",textAlign:"center"}}> Hello World ,{a}</h1>
+  <p>{23+13+7663}</p>
+  {hello}
+   <p className='para'>this is a paragrpgh</p>
+      <button>Apple</button>
+   <button>red</button>
+   <button>My Button</button>
+  </div>
+  )
+  
+} */}
+ReactDOM.render(<App/>,document.getElementById('root'));
+
